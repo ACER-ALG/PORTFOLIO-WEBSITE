@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: rgb(166, 166, 217);
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+.navbar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  padding: 25px 9%;
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+  z-index: 100;
+}
+.navbar .logo {
+  font-size: 15px;
+  font-weight: 700;
+  color: white;
+}
+.navbar ul {
+  display: flex;
+}
+.navbar ul li{
+  list-style: none;
+ margin-left: 35px;
+}
+.navbar ul li a{
+    font-size: 20px;
+    font-weight: 500;
+    transition: .5s;
+
+}
+.navbar ul li a:hover{
+    color: blueviolet;
+}
